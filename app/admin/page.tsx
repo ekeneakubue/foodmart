@@ -882,8 +882,10 @@ function AdminDashboardContent() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
               </button>
-              <Link href="/" className="flex items-center">
-                <img src="/images/logo.png" alt="Food Mart" className="w-32 sm:w-40 h-auto" />
+              <Link href="/" className="inline-block">
+                <span className="text-4xl font-bold bg-clip-text">
+                  Food<span className="text-green-500">Mart</span>
+                </span>
               </Link>
             </div>
             <div className="flex items-center space-x-2 sm:space-x-4">

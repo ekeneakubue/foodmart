@@ -31,7 +31,9 @@ export default function ForgotPasswordPage() {
         {/* Logo */}
         <div className="text-center mb-8">
           <Link href="/" className="inline-block">
-            <img src="/images/logo.png" alt="Food Mart" className="h-16 mx-auto" />
+            <span className="text-4xl font-bold bg-clip-text">
+              Food<span className="text-green-500">Mart</span>
+            </span>
           </Link>
         </div>
 
